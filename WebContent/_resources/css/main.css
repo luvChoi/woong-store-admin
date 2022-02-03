@@ -9,22 +9,18 @@
 	padding: 0px;
 	color: #000;
 }
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section,
  #header-wrapper, #section-wrapper, #footer-wrapper
 {
 	display: block;
 }
-
 .text-decoration-none {
 	color: black;
 }
-
-.menu > ul > li > .nav-link {
+.menu ul li .nav-link {
 	color: black;
 }
-
 body {
 	height: 100%;
 }
@@ -38,46 +34,35 @@ body {
 	position: fixed;
 	z-index: auto;
 }
-
 header {
 	width: 1280px;
 	margin: auto;
 	height: 80px;
-	/* background: red; */
 }
-
 .member {
 	line-height: 80px;
 }
-
-.member > ul{
+.member ul{
 	display: flex;
 	justify-content: flex-end;
 	font-size: 13px;
 	font-weight: bold;
 }
-
-.member > ul > li {
+.member ul li {
 	margin-left: 20px;
 }
-
 #nav {
 	width: 1280px;
 	margin: auto;
 	height: 80px;
-	/* background: blue; */
 	display: flex;
 }
-
 .logo {
 	width: 150px;
 	height: 80px;
-	/* background: gray; */
 	display: inline-block;
-	/* text-align: center; */
 }
-
-.logo > h2 {
+.logo h2 {
 	font-weight: bold;	
 	line-height: 75px;
 }
@@ -85,37 +70,30 @@ header {
 .menu {
 	width: calc(1280px - 150px);
 	margin: auto auto auto 20px;
-	/* background: green; */
 }
 
-.menu > .nav {
+.menu .nav {
 	/*justify-content: flex-start;*/
 	font-weight: bold;
 }
-
-.menu > ul > li {
+.menu ul li {
 	margin-left: 20px;
 }
-
-li > .dropdown-item {
+li .dropdown-item {
 	color: gray;
 }
-
 
 /* main */
 #section-wrapper {
 	display: block;
-	/* background-color: #F2E2E2; */
 	width: 100%;
 	margin: auto;
 	padding-top: 160px;
 	min-height: 1080px; 
 }
-
 section {
 	width: 1100px;
 	margin: auto;
-	/* background-color: olive; */
 	height: 100%;
 }
 
@@ -132,10 +110,10 @@ section {
 	border-bottom: black solid 1px;	
 	padding: 10px 0 10px 0;
 }
-.prod_title > #span_1 {
+.prod_title #span_1 {
 	font-weight: bold;	
 }
-.prod_title > #span_2 {
+.prod_title #span_2 {
 	color: gray;
 }
 
@@ -150,10 +128,9 @@ section {
 }
 
 /* product_view */
-.prod_view_table > table > tr > td {
+.prod_view_table table tr td {
 	text-align: center;
 }
-
 span#imgTag {
 	color: gray;
 	font-size: small;	
