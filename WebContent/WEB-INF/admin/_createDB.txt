@@ -1,0 +1,17 @@
+create table admin (
+no    number not null,
+id    varchar2(30) not null,
+passwd      varchar2(30) not null,
+name        varchar2(30) not null,
+dep_name    varchar2(30) not null,
+level_staff varchar2(30) not null,
+phone       varchar2(30) not null,
+authority    varchar2(30),
+regi_date   date default sysdate not null,
+upd_date    date default sysdate not null,
+primary key(admin_id),
+unique(admin_no)
+);
+
+
+

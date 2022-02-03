@@ -1,0 +1,15 @@
+create table product (
+no      number not null,
+classification  varchar2(50) not null,
+name            varchar2(50) not null,
+purchase_price  number not null,
+selling_price   number not null,
+stock           number not null,
+thumbnail_img01 varchar2(50) not null,
+thumbnail_img02 varchar2(50) not null,
+thumbnail_img03 varchar2(50) not null,
+info_thumbImg   varchar2(1000) not null,
+description     clob not null,
+redi_date       date default sysdate,
+upd_date        date default sysdate not null,
+primary key(no));
