@@ -9,7 +9,6 @@
 	padding: 0px;
 	color: #000;		
 }
-
 .loginFlame {	
 	width: 550px;
 	height: 460px;
@@ -17,43 +16,36 @@
 	border: gray solid 1px;
 	border-radius: 10px;
 }
-
 .inputFlame {
 	width: 400px;
 	height: 460px;
 	margin: auto;
 }
-
 .tagArea {
 	height: 150px;
 	margin: auto auto 20px auto ;
 }
-
 .tagText {
 	padding-top: 100px;
 	font-size: 26px;
 	font-weight: bold;
 }
-
 .idArea, .passwdArea {	
 	height: 50px;
 	margin: 10px auto auto auto;
 	display: flex;
 }
-
 .idTag, .passTag {
 	padding-top: 10px;
 	width: 120px;
 }
-
-.idInput > input, .passInput > input {
+.idInput input, .passInput input {
 	width: 280px;
 	height: 45px;
 	border: gray solid 1px;
 	padding-left: 10px;
 	outline: none;
 }
-
 #loginBtn {
 	height: 70px;
 	width: 400px;
