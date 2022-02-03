@@ -94,7 +94,7 @@
 			<td class="col-4">${dto.upd_date }</td>
 		</tr>
 	</table>
-	<form name="form">
+	<form name="Sakjeform">
 		<input type="hidden" name="no" value="${dto.no }">
 	</form>	
 	<div>
@@ -108,10 +108,9 @@
 <script>
 function sakje() {
 	if(confirm('상품정보를 삭제하시겠습니까?')){
-		form.method = "post";
-		form.action = "${path}/product_servlet/sakjeProc.do";
-		form.submit();
+		Sakjeform.method = "post";
+		Sakjeform.action = "${path}/product_servlet/sakjeProc.do";
+		Sakjeform.submit();
 	}
 }
-
 </script>
