@@ -1,1 +1,1 @@
-# woong-store-admin
+# STORE Admin 페이지
