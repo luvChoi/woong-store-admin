@@ -164,19 +164,19 @@ $(document).ready(function() {
 	$("input:text[id='purchase_price']").on("keyup", function() {
 	       $(this).val(addComma($(this).val().replace(/[^0-9]/g,"")));
 	    });
-    $("input:text[id='selling_price']").on("keyup", function() {
-        $(this).val(addComma($(this).val().replace(/[^0-9]/g,"")));
-     });
-    $("input:text[id='stock']").on("keyup", function() {
-        $(this).val(addComma($(this).val().replace(/[^0-9]/g,"")));
-     });
-    $("input:text[id='incoming']").on("keyup", function() {
-        $(this).val(addComma($(this).val().replace(/[^0-9]/g,"")));
-     });
+    	$("input:text[id='selling_price']").on("keyup", function() {
+        	$(this).val(addComma($(this).val().replace(/[^0-9]/g,"")));
+     	});
+    	$("input:text[id='stock']").on("keyup", function() {
+        	$(this).val(addComma($(this).val().replace(/[^0-9]/g,"")));
+     	});
+    	$("input:text[id='incoming']").on("keyup", function() {
+        	$(this).val(addComma($(this).val().replace(/[^0-9]/g,"")));
+     	});
 });
 
 function addComma(value) {
-    return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    	return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
 function list() {
